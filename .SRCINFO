@@ -1,0 +1,13 @@
+pkgbase = purple-instagram-git
+	pkgdesc = Instagram protocol plugin for libpurple (Pidgin)
+	pkgver = master
+	pkgrel = 1
+	url = https://github.com/EionRobb/purple-instagram/purple-instagram-git
+	arch = any
+	makedepends = git
+	depends = libpurple
+	depends = freeimage
+	source = purple-instagram-master.tar.gz::https://github.com/EionRobb/purple-instagram/archive/master.zip
+	sha256sums = SKIP
+
+pkgname = purple-instagram-git
